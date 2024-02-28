@@ -3,7 +3,11 @@ import Header from "./Header";
 import Product from "./Product";
 import "./Homepage.css";
 
+
 const Homepage = () => {
+
+
+
   return (
     <div className="home">
       <Header />
