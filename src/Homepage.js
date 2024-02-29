@@ -21,7 +21,7 @@ const Homepage = () => {
 
       <div className="home__row">
         <Product
-          id="1234"
+          id="1"
           title="Webber Naturals Collagen with Lysine and Vitamin C, 120 Tablets, Helps Support Joints, Muscles, and Skin"
           price={19.99}
           rating={4}
@@ -29,7 +29,7 @@ const Homepage = () => {
         />
 
         <Product
-          id="1234"
+          id="2"
           title="CONFETTERIA RAFFAELLO Coconut Almond Specialty Bag, 8 Individually Wrapped Confections, Ideal Stocking Stuffer, Christmas Chocolate, 80g"
           price={5.29}
           rating={3}
@@ -40,7 +40,7 @@ const Homepage = () => {
     
       <div className="home__row">
       <Product
-        id="1234"
+        id="3"
         title="CeraVe Moisturizing Cream, Daily Face & Body Moisturizer Cream for Dry Skin With Hyaluronic Acid and Ceramides."
         price={28.54}
         rating={5}
@@ -48,7 +48,7 @@ const Homepage = () => {
       />
 
       <Product
-        id="1234"
+        id="4"
         title="e.l.f. Instant Lift Brow Pencil, Dual-Ended Precision Eyebrow Pencil For Defining & Shaping Brows, Neutral Brown"
         price={3.97}
         rating={4}
@@ -56,7 +56,7 @@ const Homepage = () => {
       />
 
       <Product
-        id="1234"
+        id="5"
         title="Vilicci Car Air Freshener, Modern Animal Scent, Long Lasting Fragrance for Auto and Home, 1 Bottle of Car Perfume"
         price={15.99}
         rating={4}
@@ -66,7 +66,7 @@ const Homepage = () => {
 
       <div className="home__row">
       <Product
-        id="1234"
+        id="6"
         title="HTC True Wireless Bluetooth Earbuds 2, In-Ear Headphones Noise Cancellation Voice Call Volume Control for iPhone, Android -IPX5 Waterproof/Built-in Mic/32H Playtime for Calling, Gaming, Running -Black"
         price={32.99}
         rating={4}
