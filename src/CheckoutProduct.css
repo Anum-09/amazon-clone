@@ -1,11 +1,15 @@
 .checkoutProduct {
   display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .checkoutProduct__image {
   object-fit: contain;
   width: 180px;
   height: 180px;
+  mix-blend-mode: multiply;
+  
 }
 
 .checkoutProduct__info {

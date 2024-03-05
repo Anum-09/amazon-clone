@@ -5,7 +5,7 @@ export const initialState = {
 };
 
 function reducer(state, action) {
-  console.log("...",action)
+  // console.log("...",action)
   switch (action.type) {
     case "ADD_TO_BASKET":
       // Logic for adding item to basket
@@ -15,7 +15,7 @@ function reducer(state, action) {
       };
     case "REMOVE_FROM_BASKET":
       //Logic for removing item from basket
-      console.log('>>> REDUCER')
+      // console.log('>>> REDUCER')
       let newBasket = [...state.basket];
       const index = state.basket.findIndex((basketItem)=> basketItem.id === action.id)
       
