@@ -26,6 +26,7 @@ const register = event => {
   auth.createUserWithEmailAndPassword(email, password)
   .then(auth => {
     //created a user and logged in
+    navigate.push("/")
   })
   .catch((e)=> alert(e.message))
 }
