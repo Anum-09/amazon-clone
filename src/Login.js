@@ -11,7 +11,8 @@ function Login() {
   const [password, setPassword] = useState("");
 
 const login = event => {
-  event.prevent.default(); // this stops refresh!!
+  console.log('>>>>>',event)
+  // event.prevent.default(); // this stops refresh!!
   auth.signInWithEmailAndPassword(email,password)
     .then((auth)=> {
       //logged in, redirect to homepage
@@ -20,13 +21,14 @@ const login = event => {
     .catch((e)=> alert(e.message))
 }
 
-const register = event => {
-  event.prevent.default(); // this stops refresh!!
+const register = (event) => {
+  console.log('>>>> REgist', event)
+  // event.prevent.default(); // this stops refresh!!
   //do the register logic here
   auth.createUserWithEmailAndPassword(email, password)
   .then(auth => {
     //created a user and logged in
-    navigate.push("/")
+    // navigate.push("/")s
   })
   .catch((e)=> alert(e.message))
 }
@@ -58,7 +60,7 @@ const register = event => {
           see our Privacy Notice, Cookies Notice and out Internet-BAsed Ads
           Notice
         </p>
-        <button onClick={register} className="login__registerButton">
+        <button onClick={(e)=>register(e)} className="login__registerButton">
           Create your Amazon Account
         </button>
       </div>
